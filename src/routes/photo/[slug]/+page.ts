@@ -3,7 +3,6 @@ import { URL_PHOTOS } from '$lib/constants/fakeAPI';
 
 export async function load({ fetch, params }) {
     const { slug } = params;
-    console.log(`${URL_POSTS}/${slug}`);
     const response = await fetch(`${URL_POSTS}/${slug}`);
     const post = response.json();
 

@@ -8,8 +8,6 @@
         { label: 'About', url: '/about' },
         { label: 'Posts', url: '/posts' },
         { label: 'Photos', url: '/photos' },
-        // { label: 'Articles', url: '/articles' },
-        // { label: 'Videos', url: '/videos' },
     ];
 </script>
 

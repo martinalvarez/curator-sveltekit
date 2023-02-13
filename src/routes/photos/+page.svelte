@@ -1,9 +1,8 @@
 <script lang="ts">
-    // import type { Post } from '$lib/types/post';
     import { goto } from '$app/navigation';
 
     export let data;
-    const { photos } = data;
+    const photos = data.photos.slice(0, 50);
 
     function handleClick(id: number) {
         goto(`/photo/${id}`);

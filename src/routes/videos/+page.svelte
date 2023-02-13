@@ -1,7 +1,6 @@
 <script>
     export let data;
     const { albums } = data;
-    console.log(data);
 </script>
 
 {#each albums as album}
@@ -9,7 +8,6 @@
         <p>{album.id}</p>
         <p>{album.title}</p>
     </div>
-   
 {/each}
 
 <!--
